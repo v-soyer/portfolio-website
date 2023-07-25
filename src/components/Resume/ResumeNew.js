@@ -21,6 +21,7 @@ function ResumeNew() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            className="dwnld-button"
             variant="primary"
             href={pdf}
             target="_blank"
