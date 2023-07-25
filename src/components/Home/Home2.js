@@ -26,16 +26,16 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="blue"> Javascript, NodeJS and Python. </b>
+                <b className="blue"> Javascript and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="blue">Web Technologies and Products </b> and
+                <b className="blue">Web Tools and Products </b> and
                 also in areas related to{" "}
                 <b className="blue">
-                  Blockchain.
+                  Back-End Technologies.
                 </b>
               </i>
               <br />
@@ -50,7 +50,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="blue"> NestJS and Next.js</b>
+                <b className="blue"> NestJS.</b>
               </i>
             </p>
           </Col>
