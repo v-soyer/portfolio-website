@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="blue"> Javascript and Python. </b>
+                <b className="blue"> Javascript, NodeJS and Python. </b>
               </i>
               <br />
               <br />
@@ -50,11 +50,11 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="blue"> React.js and Next.js</b>
+                <b className="blue"> NestJS and Next.js</b>
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvatar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
