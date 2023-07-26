@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="blue">Valentin Soyer </span>
             from <span className="blue"> Toulouse, France.</span>
-            <br /> I am a Software Developer graduated with a Master in Software Engineering at
+            <br /> I am a Software Developer graduated with a Master Degree in Software Engineering at
             <span className="blue"> EPITECH</span> Graduate School of Digital Innovation.
             <br />
             <br />
@@ -22,20 +22,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
               <ImPointRight /> Practice Improvisation Theatre
             </li>
             <li className="about-activity">
               <ImPointRight /> Wakeboarding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Playing Games
             </li>
           </ul>
-
-          <p style={{ color: "rgba(0, 140, 255, 0.75)" }}>
+          <br />
+          <p style={{ color: "rgba(40, 110, 202, 0.95)" }}>
             "Programming is an extremely creative profession. It’s logic-based creativity."{" "}
           </p>
           <footer className="blockquote-footer">John Romero</footer>
