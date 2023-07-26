@@ -281,7 +281,7 @@ button:focus {
 }
 
 .main-name {
-  color: #286cc5;
+  color: #2973d4;
 }
 
 .Typewriter__wrapper {
@@ -439,7 +439,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: rgba(0, 140, 255, 0.7) !important;
+  color: rgba(40, 110, 202, 0.90) !important;
 }
 /* --------- */
 /* Projects */
@@ -568,14 +568,37 @@ button:focus {
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
   }
 }
 
+.tech-icons .text {
+  opacity: 0;
+  margin-top: -10px;
+  text-align: center !important;
+  font-size: large !important;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
 .tech-icons:hover {
-  transform: scale(1.08) !important;
+  transform: scale(1.1) !important;
   overflow: hidden !important;
+  box-shadow: 5px 6px 4px 3px rgba(4, 94, 168, 0.137) !important;
   border: 1.8px solid #1755a7 !important;
 }
+
+.tech-icons:hover .text {
+  opacity: 1;
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+}
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
