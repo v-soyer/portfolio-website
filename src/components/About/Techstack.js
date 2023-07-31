@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiNodejs,
   DiPython,
   DiGit,
 } from "react-icons/di";
@@ -17,7 +16,7 @@ import {
   SiTypescript,
   SiNeo4J
 } from "react-icons/si";
-
+import { FaNodeJs } from "react-icons/fa"
 
 function Techstack() {
   return (
@@ -27,7 +26,7 @@ function Techstack() {
         <div class="text">Javascript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <FaNodeJs />
         <div class="text">Node.JS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
