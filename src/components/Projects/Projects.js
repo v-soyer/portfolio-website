@@ -9,7 +9,6 @@ import acnLogo from "../../Assets/Enterprises/Accenture-Logo.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="blue">Works </strong>
@@ -41,6 +40,7 @@ function Projects() {
           </Col>
         </Row>
       </Container>
+      <Particle />
     </Container>
   );
 }

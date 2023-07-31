@@ -12,7 +12,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Original Website design by <a href="https://github.com/soumyajit4419" target="_blank" rel="noreferrer noopener">Soumyajit Behera</a></h3>
+          <h3>Original Website design by <a href="https://github.com/soumyajit4419" target="_blank" rel="noopener noreferrer">Soumyajit Behera</a></h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
