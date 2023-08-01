@@ -9,7 +9,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         {props.isLinked && (
-          <Card.Title><b><a href="http://www.google.com" rel="noopener noreferrer" target="_blank"><b>{props.title}</b></a></b></Card.Title>
+          <Card.Title><b><a href={props.link} rel="noopener noreferrer" target="_blank"><b>{props.title}</b></a></b></Card.Title>
         )}
         {!props.isLinked && (
           <Card.Title><b>{props.title}</b></Card.Title>

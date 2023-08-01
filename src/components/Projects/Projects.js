@@ -25,6 +25,7 @@ function Projects() {
               stored in different data sources and to store it inside a unique Graph to make it easier to explore and request.(Original Thesis Work by Bastien Vidé)."
               enterpriseLogo={acnLogo}
               isLinked={true}
+              link="https://hal.science/hal-03304542v1/file/Designing_BusinessView_Vide.pdf"
             />
           </Col>  
 
@@ -32,8 +33,8 @@ function Projects() {
             <ProjectCard
               imgPath={entertainement}
               isBlog={false}
-              title="Entertainement Base API"
-              description="The Purpose is to have an API able to handle user authentication and provide information about hobbies centers, it is linked to openWeatherMap to provide in real time weather information for your bases"
+              title="Entertainement Bases API"
+              description="The purpose is to have an API able to handle user authentication and provide information about hobbies centers, it is linked to openWeatherMap to provide in real time weather information for your bases."
               ghLink="https://github.com/v-soyer/entairtainment-base-API"
               isLinked={false}
             />
