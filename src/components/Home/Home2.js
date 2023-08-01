@@ -30,15 +30,30 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="blue">Web Tools and Products </b> and
-                also in areas related to{" "}
+                <b className="blue">Web Tools and Products </b>
+              </i> and also in areas related to{" "}
+              <i>
                 <b className="blue">
                   Back-End Technologies.
                 </b>
               </i>
               <br />
+              <br />I also love to share my knowledge, that's why I came back to with my school
+              <i>
+                <b className="blue"> EPITECH </b>
+              </i> &nbsp; as a
+              <i>
+                <b className="blue"> External Speaker </b>
+              </i> &nbsp; in the scope of the
+              <i>
+                <b className="blue"> Functionnal Programming </b>
+              </i> &nbsp; module using
+              <i>
+                <b className="blue"> Haskell Language. </b>
+              </i>
               <br />
-              Whenever possible, I also apply my passion for developing products
+              <br />
+              Whenever possible, I apply my passion for developing innovative products
               with <b className="blue">Node.js</b> and
               <i>
                 <b className="blue">
@@ -53,6 +68,10 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvatar">
+            <br />
+            <br />
+            <br />
+            <br />
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>

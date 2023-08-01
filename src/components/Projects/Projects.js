@@ -22,7 +22,7 @@ function Projects() {
               imgPath={dekg}
               title="DEKG"
               description="The Decentralized Enteprise Knowledge Graph (a.k.a. DEKG) is a project using Neo4J and Micro-Services to gather all the siloed data of an enterprise
-              stored in different data sources and to store it inside a unique Graph to make it easier to explore and request.(Original Thesis Work by Bastien Vidé)."
+              stored in different data sources and to store it inside a unique Graph to make it easier to explore and request. (Original Thesis Work by Bastien Vidé)."
               enterpriseLogo={acnLogo}
               isLinked={true}
               link="https://hal.science/hal-03304542v1/file/Designing_BusinessView_Vide.pdf"
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={entertainement}
               isBlog={false}
               title="Entertainement Bases API"
-              description="The purpose is to have an API able to handle user authentication and provide information about hobbies centers, it is linked to openWeatherMap to provide in real time weather information for your bases."
+              description="The purpose is to provide information (including real time weather) for entertainment bases. in order to do so, I created an API able to handle user authentication store hobbies centers information. It is also linked to openWeatherMap get the weather info."
               ghLink="https://github.com/v-soyer/entairtainment-base-API"
               isLinked={false}
             />
