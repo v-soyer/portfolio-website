@@ -38,7 +38,7 @@ function Home2() {
                 </b>
               </i>
               <br />
-              <br />I also love to share my knowledge, that's why I came back to with my school
+              <br />I also love to share my knowledge, that's why I came back to my school
               <i>
                 <b className="blue"> EPITECH </b>
               </i> &nbsp; as a
@@ -53,15 +53,14 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I apply my passion for developing innovative products
-              with <b className="blue">Node.js</b> and
+              Whenever possible, I enjoy developing innovative products with
               <i>
                 <b className="blue">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
+              </i> &nbsp;like
+              <i><b className="blue">Node.js</b></i> and
               <i>
                 <b className="blue"> NestJS.</b>
               </i>
@@ -80,9 +79,6 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="blue">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

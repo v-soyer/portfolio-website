@@ -18,7 +18,7 @@ function AboutCard() {
             in <span className="blue">Back-End web development</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do
           </p>
           <ul>
             <li className="about-activity">
