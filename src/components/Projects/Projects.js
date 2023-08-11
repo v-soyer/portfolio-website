@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import entertainement from "../../Assets/Projects/entertainement.png";
 import dekg from "../../Assets/Projects/DEKG.png";
+import pdf from "../../Assets/Projects/PDF-Reconstruct.png"
 import acnLogo from "../../Assets/Enterprises/Accenture-Logo.png";
 
 function Projects() {
@@ -28,6 +29,17 @@ function Projects() {
               link="https://hal.science/hal-03304542v1/file/Designing_BusinessView_Vide.pdf"
             />
           </Col>  
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pdf}
+              isBlog={false}
+              title="PDF Reconstruction into Graph"
+              description="The idea is to take a PDF as an input file and to translate it into a graph with the section, subsection, images and text it contains in order to make the document easier to modify, explore and compare with others. In order to do so, we used Python and Neo4J. "
+              enterpriseLogo={acnLogo}
+              isLinked={false}
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
