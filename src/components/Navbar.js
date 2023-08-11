@@ -8,8 +8,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from "react-icons/ai";
-
+import {FaPhoneAlt} from "react-icons/fa"
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -90,6 +91,13 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <span className="navbar-brand">
+        <AiOutlineMail /> 
+        &nbsp; valentin.soyer.pro@gmail.com
+        <br></br>
+        <FaPhoneAlt /> 
+        &nbsp; 06.12.50.61.18
+      </span>
     </Navbar>
   );
 }
