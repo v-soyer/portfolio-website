@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import entertainement from "../../Assets/Projects/entertainement.png";
 import dekg from "../../Assets/Projects/DEKG.png";
 import pdf from "../../Assets/Projects/PDF-Reconstruct.png"
-import acnLogo from "../../Assets/Enterprises/Accenture-Logo.png";
+import enterpriseLogo from "../../Assets/enterprise.png";
 
 function Projects() {
   return (
@@ -24,7 +24,7 @@ function Projects() {
               title="DEKG"
               description="The Decentralized Enteprise Knowledge Graph (a.k.a. DEKG) is a project using Neo4J and Micro-Services to gather all the siloed data of an enterprise
               stored in different data sources and to store it inside a unique Graph to make it easier to explore and request. (Original Thesis Work by Bastien Vidé)."
-              enterpriseLogo={acnLogo}
+              enterpriseLogo={enterpriseLogo}
               isLinked={true}
               link="https://hal.science/hal-03304542v1/file/Designing_BusinessView_Vide.pdf"
             />
@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="PDF Reconstruction into Graph"
               description="The idea is to take a PDF as an input file and to translate it into a graph with the section, subsection, images and text it contains in order to make the document easier to modify, explore and compare with others. In order to do so, we used Python and Neo4J. "
-              enterpriseLogo={acnLogo}
+              enterpriseLogo={enterpriseLogo}
               isLinked={false}
             />
           </Col>
