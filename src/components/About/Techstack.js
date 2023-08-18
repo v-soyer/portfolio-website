@@ -14,7 +14,8 @@ import {
   SiDocker,
   SiMongodb,
   SiTypescript,
-  SiNeo4J
+  SiNeo4J,
+  SiVercel
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa"
 
@@ -72,6 +73,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
         <div class="text">C</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+        <div class="text">Vercel</div>
       </Col>
     </Row>
   );
