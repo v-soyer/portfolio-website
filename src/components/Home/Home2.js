@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="blue"> Javascript and Python. </b>
+                <b className="blue"> Javascript and Python</b>.
               </i>
               <br />
               <br />
@@ -34,22 +34,22 @@ function Home2() {
               </i> and also in areas related to{" "}
               <i>
                 <b className="blue">
-                  Back-End Technologies.
-                </b>
+                  Back-End Technologies
+                </b>.
               </i>
               <br />
               <br />I also love to share my knowledge, that's why I came back to my school
               <i>
                 <b className="blue"> EPITECH </b>
-              </i> &nbsp; as a
+              </i>&nbsp;as a
               <i>
                 <b className="blue"> External Speaker </b>
-              </i> &nbsp; in the scope of the
+              </i>&nbsp;in the scope of the
               <i>
                 <b className="blue"> Functionnal Programming </b>
-              </i> &nbsp; module using
+              </i>module using
               <i>
-                <b className="blue"> Haskell Language. </b>
+                <b className="blue"> Haskell Language</b>.
               </i>
               <br />
               <br />
@@ -59,10 +59,10 @@ function Home2() {
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i> &nbsp;like
-              <i><b className="blue">Node.js</b></i> and
+              </i>&nbsp;like
+              <i><b className="blue"> Node.js</b></i> and
               <i>
-                <b className="blue"> NestJS.</b>
+                <b className="blue"> NestJS</b>.
               </i>
             </p>
           </Col>

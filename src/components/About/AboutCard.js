@@ -15,7 +15,7 @@ function AboutCard() {
             <br />
             <br />
             Additionally, I currently am a <span className="blue">Freelance</span> developer specialized
-            in <span className="blue">Back-End web development</span>
+            in <span className="blue">Back-End web development</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do
