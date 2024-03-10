@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import entertainement from "../../Assets/Projects/entertainement.png";
 import dekg from "../../Assets/Projects/DEKG.png";
-import pdf from "../../Assets/Projects/PDF-Reconstruct.png"
+import pdf from "../../Assets/Projects/PDF-Reconstruct.png";
+import vmo from "../../Assets/Projects/VMO.png";
 import enterpriseLogo from "../../Assets/enterprise.png";
 
 function Projects() {
@@ -18,6 +19,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={vmo}
+            title="VM-OUTPUT"
+            description="The VM-OUTPUT is a FinOps software using PowerShell and Python allowing to do the inventory of owned virtual machines on
+            several data storage and to process their costs in order to have a final csv file with all the details and real costs of each VMs. The script runs
+            daily to provide the most accurate data"
+            enterpriseLogo={enterpriseLogo}
+            isLinked={false}
+          />
+        </Col>  
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dekg}
