@@ -15,7 +15,8 @@ import {
   SiMongodb,
   SiTypescript,
   SiNeo4J,
-  SiVercel
+  SiVercel,
+  SiPowershell
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa"
 
@@ -43,10 +44,6 @@ function Techstack() {
         <div class="text">Django</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowershell />
-        <div class="text">Powershell</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
         <div class="text">Docker</div>
       </Col>
@@ -69,6 +66,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript/>
         <div class="text">Typescript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowershell />
+        <div class="text">Powershell</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHaskell />
