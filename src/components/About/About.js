@@ -11,6 +11,16 @@ function About() {
     <Container fluid className="about-section">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <h1 className="project-heading">
+          Professional <strong className="blue">Skillset </strong>
+          </h1>
+  
+          <Techstack />
+  
+          <h1 className="project-heading">
+            <strong className="blue">Tools</strong> I use
+          </h1>
+          <Toolstack />
           <Col
             md={7}
             style={{
@@ -32,16 +42,6 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="blue">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="blue">Tools</strong> I use
-        </h1>
-        <Toolstack />
       </Container>
       <Particle />
     </Container>
