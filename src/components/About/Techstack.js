@@ -16,7 +16,9 @@ import {
   SiTypescript,
   SiNeo4J,
   SiVercel,
-  SiPowershell
+  SiPowershell,
+  SiElastic,
+  SiKibana
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa"
 
@@ -82,6 +84,14 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
         <div class="text">Vercel</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElastic />
+        <div class="text">ElasticSearch</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+        <div class="text">Kibana</div>
       </Col>
     </Row>
   );
