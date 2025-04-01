@@ -7,6 +7,8 @@ import {
   SiGitlab,
   SiJenkins,
   SiLinux,
+  SiConfluence,
+  SiConstruct3
 } from "react-icons/si";
 import { TbBrandOffice } from "react-icons/tb";
 
@@ -34,12 +36,20 @@ function Toolstack() {
         <div class="text">Postman</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiConfluence/>
+        <div class="text">Confluence</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiJenkins />
         <div class="text">Jenkins</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandOffice />
         <div class="text">Office 365</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiConstruct3 />
+        <div class="text">Centreon</div>
       </Col>
     </Row>
   );
