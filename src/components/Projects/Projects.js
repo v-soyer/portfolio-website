@@ -6,6 +6,7 @@ import entertainement from "../../Assets/Projects/entertainement.png";
 import dekg from "../../Assets/Projects/DEKG.png";
 import pdf from "../../Assets/Projects/PDF-Reconstruct.png";
 import vmo from "../../Assets/Projects/VMO.png";
+import confidential from "../../Assets/Projects/confidential.png"
 import enterpriseLogo from "../../Assets/enterprise.png";
 
 function Projects() {
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={confidential}
+            title="CONFIDENTIAL WORK"
+            description="I worked for one year on a confidential project. The purpose was to adapt an old bash code base to a new one in python and integrating
+            new features on demand. The environment was complex because of a lot of security locks between components. I had to adapt in order to deliver and that's
+            an important skill i acquired during this mission"
+            enterpriseLogo={enterpriseLogo}
+            isLinked={false}
+          />
+        </Col>  
         <Col md={4} className="project-card">
           <ProjectCard
             imgPath={vmo}
